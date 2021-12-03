@@ -174,6 +174,7 @@ const __main__ = async () =>
         if (points < 0) { endChat("Você perdeu, que pena..."); return; }
     }
 
-    endChat("Parabéns, você me venceu, mas já já volto com mais perguntas...");
+    sendMessage("Parabéns, você me venceu!");
+    sendMessage("Se caso te interessar, podes encontrar meu código fonte aqui: https://github.com/LordZarkares/buzzrBot/blob/main/bot.js");
+    endChat("Obrigado pelo seu tempo, foi divertido!");
 };
-// Yes, I didn't have anything to do this morning, so I just played a little bit with JS.
