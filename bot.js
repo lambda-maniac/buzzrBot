@@ -117,7 +117,7 @@ const ask = async (question, answers) =>
         for (let index = 0; index < answers.length; ++index) {
             const answer = answers[index];
 
-            if (userAnswer.includes(answer)) return true;
+            if (userAnswer == answer) return true;
         }
     }
 
